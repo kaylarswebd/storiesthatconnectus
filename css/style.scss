@@ -1,6 +1,11 @@
 $headercolor: rgb(179, 145, 84);
 $divbgcolor: #B2B2A2;
 
+$pinkhorizon: #e7b99f;
+$sandsurge: #e3dacd;
+$mosstide: #b0b1a1;
+$marinegreen: #6c7974;
+
 //navs
 nav {
     margin: 12px;
@@ -13,7 +18,7 @@ nav {
     margin: 12px;
     border-radius: 5px;
     h1 {
-        color: $headercolor;
+        color: $pinkhorizon;
         text-decoration: underline;
         float: right;
     }
@@ -25,11 +30,11 @@ nav {
 
 //logs
 div.logs {
-    background-color: $divbgcolor;
+    background-color: $marinegreen;
     border-radius: 5px;
     margin: 12px;
     h1 {
-        color: $headercolor;
+        color: $pinkhorizon;
         border-radius: 5px;
         margin: 12px;
     }
@@ -47,7 +52,7 @@ div.logs {
 
 // contact
 div.contact {
-    background-color: $divbgcolor;
+    background-color: $marinegreen;
     border-radius: 5px;
     margin: 12px;
     h1 {
@@ -66,12 +71,12 @@ div.contact {
 
 //footer
 div.footer {
-    background-color: $divbgcolor;
+    background-color: $marinegreen;
     border-radius: 5px;
     margin: 12px;
     h1{
         text-align: center;
-        color: $headercolor;
+        color: $pinkhorizon;
         border-radius: 5px;
         margin: 12px;
     }
