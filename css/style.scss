@@ -1,0 +1,131 @@
+$headercolor: rgb(179, 145, 84);
+$divbgcolor: #B2B2A2;
+
+//navs
+nav {
+    margin: 12px;
+    background-color: #6d7973;
+    border-radius: 5px;
+}
+
+//banner
+.jumbotron {
+    margin: 12px;
+    border-radius: 5px;
+    h1 {
+        color: $headercolor;
+        text-decoration: underline;
+        float: right;
+    }
+    p {
+        color: white;
+        clear: both;
+    }
+}
+
+//logs
+div.logs {
+    background-color: $divbgcolor;
+    border-radius: 5px;
+    margin: 12px;
+    h1 {
+        color: $headercolor;
+        border-radius: 5px;
+        margin: 12px;
+    }
+    h5 {
+        padding: 12px;
+        padding-top: 0px;
+        text-indent: 12px;
+    } 
+    p {
+        text-indent: 12px;
+        padding: 12px;
+        color: white;
+    }
+}
+
+// contact
+div.contact {
+    background-color: $divbgcolor;
+    border-radius: 5px;
+    margin: 12px;
+    h1 {
+        text-align: center;
+    }
+    .col-md-4 {
+        margin: 4px;
+    }
+    .col-md-10 {
+        margin: 4px;
+    }
+    .btn {
+        margin: 4px;
+    }
+}
+
+//footer
+div.footer {
+    background-color: $divbgcolor;
+    border-radius: 5px;
+    margin: 12px;
+    h1{
+        text-align: center;
+        color: $headercolor;
+        border-radius: 5px;
+        margin: 12px;
+    }
+    .socialicons {
+        h3 {
+            text-align: center;
+        }
+        .imglinks {
+            display: flex;
+            justify-content: center;
+        }
+        img {
+            width: 50px;
+            height: 50px;
+            margin: 4px;
+        }
+    }
+    .copyright {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    nav {
+        margin: 10px;
+    }
+    .jumbotron {
+        margin: 10px;
+    }
+    div.logs {
+        margin: 10px;
+    }
+    div.contact {
+        margin: 10px;
+    }
+    div.footer {
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    nav {
+        margin: 4px;
+    }
+    .jumbotron {
+        margin: 4px
+    }
+    div.logs {
+        margin: 4px;
+    }
+    div.contact {
+        margin: 4px;
+    }
+    div.footer {
+        margin: 4px;
+    }
+}
