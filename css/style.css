@@ -1,11 +1,11 @@
 nav {
-  margin: 12px;
+  margin: 0px;
   background-color: #6d7973;
-  border-radius: 5px;
+  border: #e7b99f solid 5px;
 }
 
 .jumbotron {
-  margin: 12px;
+  margin: 0px;
   border-radius: 5px;
 }
 
@@ -53,6 +53,7 @@ div.contact {
 
 div.contact h1 {
   text-align: center;
+  color: #e7b99f;
 }
 
 div.contact .col-md-4 {
@@ -106,10 +107,10 @@ div.footer .copyright {
 
 @media only screen and (max-width: 800px) {
   nav {
-    margin: 10px;
+    margin: 0px;
   }
   .jumbotron {
-    margin: 10px;
+    margin: 0px;
   }
   div.logs {
     margin: 10px;
@@ -124,10 +125,10 @@ div.footer .copyright {
 
 @media only screen and (max-width: 450px) {
   nav {
-    margin: 4px;
+    margin: 0px;
   }
   .jumbotron {
-    margin: 4px;
+    margin: 0px;
   }
   div.logs {
     margin: 4px;
