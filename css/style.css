@@ -48,6 +48,7 @@ div.contact {
   background-color: #6c7974;
   border-radius: 5px;
   margin: 12px;
+  color: white;
 }
 
 div.contact h1 {
@@ -81,6 +82,7 @@ div.footer h1 {
 
 div.footer .socialicons h3 {
   text-align: center;
+  color: #e7b99f;
 }
 
 div.footer .socialicons .imglinks {

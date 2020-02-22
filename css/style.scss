@@ -55,6 +55,7 @@ div.contact {
     background-color: $marinegreen;
     border-radius: 5px;
     margin: 12px;
+    color: white;
     h1 {
         text-align: center;
     }
@@ -83,6 +84,7 @@ div.footer {
     .socialicons {
         h3 {
             text-align: center;
+            color: $pinkhorizon;
         }
         .imglinks {
             display: flex;
