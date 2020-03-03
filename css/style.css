@@ -173,5 +173,10 @@ div.footer .copyright {
   div.footer {
     margin: 4px;
   }
+  div.footer img {
+    width: 40px;
+    height: 40px;
+    margin: 4px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
