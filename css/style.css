@@ -113,7 +113,7 @@ div.footer .copyright {
     margin: 0px;
   }
   .jumbotron h1 {
-    font-size: .75em;
+    font-size: .75rem;
   }
   div.logs {
     margin: 10px;
@@ -131,8 +131,10 @@ div.footer .copyright {
     margin: 0px;
   }
   .jumbotron {
-    margin: 0px h1;
-    margin-font-size: .5em;
+    margin: 0px;
+  }
+  .jumbotron h1 {
+    font-size: .5rem;
   }
   div.logs {
     margin: 4px;
