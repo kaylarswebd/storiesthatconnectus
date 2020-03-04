@@ -2,6 +2,7 @@ $pinkhorizon: #e7b99f;
 $sandsurge: #e3dacd;
 $mosstide: #b0b1a1;
 $marinegreen: #6c7974;
+$mainfont: 'Satisfy', cursive;
 
 //navs
 nav {
@@ -17,6 +18,8 @@ nav {
         color: $pinkhorizon;
         text-decoration: underline;
         float: right;
+        font-family: $mainfont;
+        font-size: 100px;
     }
     p {
         color: white;
@@ -33,6 +36,7 @@ div.logs {
         color: $pinkhorizon;
         border-radius: 5px;
         margin: 12px;
+        font-family: $mainfont;
     }
     h5 {
         padding: 12px;
@@ -54,7 +58,9 @@ div.contact {
     color: white;
     h1 {
         text-align: center;
-        color: $pinkhorizon
+        color: $pinkhorizon;
+        font-family: $mainfont;
+        margin: 12px;
     }
     .col-md-4 {
         margin: 4px;
@@ -78,6 +84,7 @@ div.footer {
     h1 {
         text-align: center;
         color: $pinkhorizon;
+        font-family: $mainfont;
         border-radius: 5px;
         margin: 12px;
     }
@@ -136,12 +143,15 @@ div.footer {
     /* Add a dark-grey background on hover */
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 768px) {
     nav {
         margin: 0px;
     }
     .jumbotron {
         margin: 0px;
+        h1 {
+            font-size: 50px;
+        }
     }
     div.logs {
         margin: 10px;
@@ -159,7 +169,10 @@ div.footer {
         margin: 0px;
     }
     .jumbotron {
-        margin: 0px
+        margin: 0px;
+        h1 {
+            font-size: 40px;
+        }
     }
     div.logs {
         margin: 4px;

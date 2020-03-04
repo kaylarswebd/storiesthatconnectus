@@ -12,6 +12,8 @@ nav {
   color: #e7b99f;
   text-decoration: underline;
   float: right;
+  font-family: "Satisfy", cursive;
+  font-size: 100px;
 }
 
 .jumbotron p {
@@ -29,6 +31,7 @@ div.logs h1 {
   color: #e7b99f;
   border-radius: 5px;
   margin: 12px;
+  font-family: "Satisfy", cursive;
 }
 
 div.logs h5 {
@@ -53,6 +56,8 @@ div.contact {
 div.contact h1 {
   text-align: center;
   color: #e7b99f;
+  font-family: "Satisfy", cursive;
+  margin: 12px;
 }
 
 div.contact .col-md-4 {
@@ -80,6 +85,7 @@ div.footer {
 div.footer h1 {
   text-align: center;
   color: #e7b99f;
+  font-family: "Satisfy", cursive;
   border-radius: 5px;
   margin: 12px;
 }
@@ -142,12 +148,15 @@ div.footer .copyright {
   /* Add a dark-grey background on hover */
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 768px) {
   nav {
     margin: 0px;
   }
   .jumbotron {
     margin: 0px;
+  }
+  .jumbotron h1 {
+    font-size: 50px;
   }
   div.logs {
     margin: 10px;
@@ -166,6 +175,9 @@ div.footer .copyright {
   }
   .jumbotron {
     margin: 0px;
+  }
+  .jumbotron h1 {
+    font-size: 40px;
   }
   div.logs {
     margin: 4px;
