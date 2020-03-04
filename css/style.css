@@ -6,7 +6,6 @@ nav {
 
 .jumbotron {
   margin: 0px;
-  border-radius: 5px;
 }
 
 .jumbotron h1 {
@@ -68,6 +67,10 @@ div.contact .btn {
   margin: 4px;
 }
 
+div.contact p {
+  padding: 4px;
+}
+
 div.footer {
   background-color: #6c7974;
   border-radius: 5px;
@@ -120,9 +123,9 @@ div.footer .copyright {
   /* Remove borders */
   outline: none;
   /* Remove outline */
-  background-color: #6c7974;
+  background-color: #e7b99f;
   /* Set a background color */
-  color: #e7b99f;
+  color: white;
   /* Text color */
   cursor: pointer;
   /* Add a mouse pointer on hover */
@@ -173,10 +176,10 @@ div.footer .copyright {
   div.footer {
     margin: 4px;
   }
-  div.footer img {
+  div.footer .socialicons img {
     width: 40px;
     height: 40px;
-    margin: 4px;
+    margin: 2px;
   }
 }
 /*# sourceMappingURL=style.css.map */

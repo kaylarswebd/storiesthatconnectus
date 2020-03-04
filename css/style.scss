@@ -13,15 +13,11 @@ nav {
 //banner
 .jumbotron {
     margin: 0px;
-    border-radius: 5px;
-    ;
-
     h1 {
         color: $pinkhorizon;
         text-decoration: underline;
         float: right;
     }
-
     p {
         color: white;
         clear: both;
@@ -33,19 +29,16 @@ div.logs {
     background-color: $marinegreen;
     border-radius: 5px;
     margin: 12px;
-
     h1 {
         color: $pinkhorizon;
         border-radius: 5px;
         margin: 12px;
     }
-
     h5 {
         padding: 12px;
         padding-top: 0px;
         text-indent: 12px;
     }
-
     p {
         text-indent: 12px;
         padding: 12px;
@@ -59,22 +52,21 @@ div.contact {
     border-radius: 5px;
     margin: 12px;
     color: white;
-
     h1 {
         text-align: center;
         color: $pinkhorizon
     }
-
     .col-md-4 {
         margin: 4px;
     }
-
     .col-md-10 {
         margin: 4px;
     }
-
     .btn {
         margin: 4px;
+    }
+    p {
+        padding: 4px;
     }
 }
 
@@ -83,32 +75,27 @@ div.footer {
     background-color: $marinegreen;
     border-radius: 5px;
     margin: 12px;
-
     h1 {
         text-align: center;
         color: $pinkhorizon;
         border-radius: 5px;
         margin: 12px;
     }
-
     .socialicons {
         h3 {
             text-align: center;
             color: $pinkhorizon;
         }
-
         .imglinks {
             display: flex;
             justify-content: center;
         }
-
         img {
             width: 50px;
             height: 50px;
             margin: 4px;
         }
     }
-
     .copyright {
         text-align: center;
     }
@@ -130,9 +117,9 @@ div.footer {
     /* Remove borders */
     outline: none;
     /* Remove outline */
-    background-color: $marinegreen;
+    background-color: $pinkhorizon;
     /* Set a background color */
-    color: $pinkhorizon;
+    color: white;
     /* Text color */
     cursor: pointer;
     /* Add a mouse pointer on hover */
@@ -153,19 +140,15 @@ div.footer {
     nav {
         margin: 0px;
     }
-
     .jumbotron {
         margin: 0px;
     }
-
     div.logs {
         margin: 10px;
     }
-
     div.contact {
         margin: 10px;
     }
-
     div.footer {
         margin: 10px;
     }
@@ -175,25 +158,24 @@ div.footer {
     nav {
         margin: 0px;
     }
-
     .jumbotron {
         margin: 0px
     }
-
     div.logs {
         margin: 4px;
     }
-
     div.contact {
         margin: 4px;
     }
-
     div.footer {
         margin: 4px;
-        img {
-            width: 40px;
-            height: 40px;
-            margin: 4px;
+        .socialicons {
+            img {
+                width: 40px;
+                height: 40px;
+                margin: 2px;
+            } 
         }
+
     }
 }
