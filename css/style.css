@@ -21,6 +21,25 @@ nav {
   clear: both;
 }
 
+div.about {
+  background-color: #6c7974;
+  border-radius: 5px;
+  margin: 12px;
+}
+
+div.about h1 {
+  color: #e7b99f;
+  border-radius: 5px;
+  margin: 12px;
+  font-family: "Satisfy", cursive;
+}
+
+div.about p {
+  text-indent: 12px;
+  padding: 12px;
+  color: white;
+}
+
 div.logs {
   background-color: #6c7974;
   border-radius: 5px;
@@ -158,6 +177,9 @@ div.footer .copyright {
   .jumbotron h1 {
     font-size: 50px;
   }
+  div.about {
+    margin: 10px;
+  }
   div.logs {
     margin: 10px;
   }
@@ -178,6 +200,9 @@ div.footer .copyright {
   }
   .jumbotron h1 {
     font-size: 40px;
+  }
+  div.about {
+    margin: 4px;
   }
   div.logs {
     margin: 4px;

@@ -27,6 +27,24 @@ nav {
     }
 }
 
+//about
+div.about {
+    background-color: $marinegreen;
+    border-radius: 5px;
+    margin: 12px;
+    h1 {
+        color: $pinkhorizon;
+        border-radius: 5px;
+        margin: 12px;
+        font-family: $mainfont;
+    }
+    p {
+        text-indent: 12px;
+        padding: 12px;
+        color: white;
+    }
+}
+
 //logs
 div.logs {
     background-color: $marinegreen;
@@ -153,6 +171,9 @@ div.footer {
             font-size: 50px;
         }
     }
+    div.about {
+        margin: 10px;
+    }
     div.logs {
         margin: 10px;
     }
@@ -173,6 +194,9 @@ div.footer {
         h1 {
             font-size: 40px;
         }
+    }
+    div.about {
+        margin: 4px;
     }
     div.logs {
         margin: 4px;
