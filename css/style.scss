@@ -38,10 +38,21 @@ div.about {
         margin: 12px;
         font-family: $mainfont;
     }
+    img {
+        margin: 12px;
+        width: 40%;
+        float: left;
+    }
     p {
         text-indent: 12px;
         padding: 12px;
         color: white;
+    }
+    a {
+        color: $pinkhorizon;
+    }
+    a:hover {
+        color: $mosstide;
     }
 }
 
@@ -197,6 +208,11 @@ div.footer {
     }
     div.about {
         margin: 4px;
+        img {
+            float: none;
+            width: 92%;
+            height: auto;
+        }
     }
     div.logs {
         margin: 4px;

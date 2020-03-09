@@ -34,10 +34,24 @@ div.about h1 {
   font-family: "Satisfy", cursive;
 }
 
+div.about img {
+  margin: 12px;
+  width: 40%;
+  float: left;
+}
+
 div.about p {
   text-indent: 12px;
   padding: 12px;
   color: white;
+}
+
+div.about a {
+  color: #e7b99f;
+}
+
+div.about a:hover {
+  color: #b0b1a1;
 }
 
 div.logs {
@@ -203,6 +217,11 @@ div.footer .copyright {
   }
   div.about {
     margin: 4px;
+  }
+  div.about img {
+    float: none;
+    width: 92%;
+    height: auto;
   }
   div.logs {
     margin: 4px;
