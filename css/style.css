@@ -240,5 +240,8 @@ div.footer .copyright {
     height: 40px;
     margin: 2px;
   }
+  div.footer .copyright {
+    margin-bottom: 75px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
