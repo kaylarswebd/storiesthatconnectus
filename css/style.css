@@ -79,6 +79,31 @@ div.logs p {
   color: white;
 }
 
+div.diaries {
+  background-color: #6c7974;
+  border-radius: 5px;
+  margin: 12px;
+}
+
+div.diaries h1 {
+  color: #e7b99f;
+  border-radius: 5px;
+  margin: 12px;
+  font-family: "Satisfy", cursive;
+}
+
+div.diaries h5 {
+  padding: 12px;
+  padding-top: 0px;
+  text-indent: 12px;
+}
+
+div.diaries p {
+  text-indent: 12px;
+  padding: 12px;
+  color: white;
+}
+
 div.contact {
   background-color: #6c7974;
   border-radius: 5px;
