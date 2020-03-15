@@ -79,6 +79,11 @@ div.logs p {
   color: white;
 }
 
+div.logs img {
+  width: 100%;
+  padding: 12px;
+}
+
 div.diaries {
   background-color: #6c7974;
   border-radius: 5px;
