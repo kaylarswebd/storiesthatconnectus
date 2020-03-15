@@ -79,8 +79,14 @@ div.logs p {
   color: white;
 }
 
-div.logs img {
+div.logs .img1 {
   width: 100%;
+  padding: 12px;
+}
+
+div.logs .img2 {
+  float: left;
+  width: 40%;
   padding: 12px;
 }
 
@@ -258,6 +264,11 @@ div.footer .copyright {
   }
   div.logs {
     margin: 4px;
+  }
+  div.logs .img2 {
+    float: none;
+    width: 100%;
+    padding: 12px;
   }
   div.contact {
     margin: 4px;
