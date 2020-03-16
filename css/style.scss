@@ -78,12 +78,18 @@ div.logs {
         color: white;
     }
     .img1 {
-        width: 100%;
+        float: left;
+        width: 49%;
         padding: 12px;
     }
     .img2 {
         float: left;
-        width: 40%;
+        width: 49%;
+        padding: 12px;
+    }
+    .img3 {
+        float: left;
+        width: 49%;
         padding: 12px;
     }
 }
@@ -252,11 +258,11 @@ div.footer {
     }
     div.logs {
         margin: 4px;
-        .img2 {
+        .img1, .img2, .img3 {
+            float: none;
             width: 100%;
-            padding: 12px;
         }
-    }
+}
     div.contact {
         margin: 4px;
     }

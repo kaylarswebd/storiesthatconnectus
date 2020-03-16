@@ -80,13 +80,20 @@ div.logs p {
 }
 
 div.logs .img1 {
-  width: 100%;
+  float: left;
+  width: 49%;
   padding: 12px;
 }
 
 div.logs .img2 {
   float: left;
-  width: 40%;
+  width: 49%;
+  padding: 12px;
+}
+
+div.logs .img3 {
+  float: left;
+  width: 49%;
   padding: 12px;
 }
 
@@ -265,9 +272,9 @@ div.footer .copyright {
   div.logs {
     margin: 4px;
   }
-  div.logs .img2 {
+  div.logs .img1, div.logs .img2, div.logs .img3 {
+    float: none;
     width: 100%;
-    padding: 12px;
   }
   div.contact {
     margin: 4px;
