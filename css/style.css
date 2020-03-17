@@ -133,6 +133,11 @@ div.diaries .img1 {
   padding: 12px;
 }
 
+div.diaries .fb-comments {
+  width: 100%;
+  height: auto;
+}
+
 div.contact {
   background-color: #6c7974;
   border-radius: 5px;
