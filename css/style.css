@@ -97,6 +97,11 @@ div.logs .img3 {
   padding: 12px;
 }
 
+div.logs .fb-comments {
+  width: 100%;
+  height: auto;
+}
+
 div.diaries {
   background-color: #6c7974;
   border-radius: 5px;
