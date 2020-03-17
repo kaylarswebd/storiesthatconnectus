@@ -122,6 +122,12 @@ div.diaries p {
   color: white;
 }
 
+div.diaries .img1 {
+  float: left;
+  width: 49%;
+  padding: 12px;
+}
+
 div.contact {
   background-color: #6c7974;
   border-radius: 5px;
