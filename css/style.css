@@ -97,9 +97,9 @@ div.logs .img3 {
   padding: 12px;
 }
 
-div.logs .fb-comments {
-  width: 100%;
-  height: auto;
+div.logs .img4 {
+  width: 49%;
+  padding: 12px;
 }
 
 div.diaries {
@@ -285,10 +285,17 @@ div.footer .copyright {
     width: 92%;
     height: auto;
   }
+  div.diaries {
+    margin: 4px;
+  }
+  div.diaries .img1, div.diaries .img2, div.diaries .img3, div.diaries .img4 {
+    float: none;
+    width: 100%;
+  }
   div.logs {
     margin: 4px;
   }
-  div.logs .img1, div.logs .img2, div.logs .img3 {
+  div.logs .img1, div.logs .img2, div.logs .img3, div.logs .img4 {
     float: none;
     width: 100%;
   }
