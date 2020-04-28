@@ -97,8 +97,8 @@ div.logs .img3 {
   padding: 12px;
 }
 
-div.logs .img4 {
-  width: 49%;
+div.logs .img9 {
+  width: 100%;
   padding: 12px;
 }
 
@@ -295,7 +295,7 @@ div.footer .copyright {
   div.logs {
     margin: 4px;
   }
-  div.logs .img1, div.logs .img2, div.logs .img3, div.logs .img4 {
+  div.logs .img1, div.logs .img2, div.logs .img3, div.logs .img4, div.logs .img9 {
     float: none;
     width: 100%;
   }
