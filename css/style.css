@@ -4,6 +4,15 @@ nav {
   border: #e7b99f solid 5px;
 }
 
+nav .navbar-brand {
+  font-family: 'Satisfy', cursive;
+}
+
+nav .nav-link:hover {
+  color: #e7b99f;
+  text-decoration: underline;
+}
+
 .jumbotron {
   margin: 0px;
 }
@@ -236,7 +245,7 @@ div.footer .copyright {
 }
 
 #myBtn:hover {
-  background-color: #555;
+  background-color: #6c7974;
   /* Add a dark-grey background on hover */
 }
 
