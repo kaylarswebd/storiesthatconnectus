@@ -1,11 +1,17 @@
 nav {
   margin: 0px;
   background-color: #6d7973;
-  border: #e7b99f solid 5px;
+  border-bottom: #e7b99f solid 5px;
 }
 
 nav .navbar-brand {
   font-family: 'Satisfy', cursive;
+  font-size: 2em;
+  text-decoration: underline;
+}
+
+nav li {
+  float: right;
 }
 
 nav .nav-link:hover {
@@ -39,12 +45,12 @@ div.about {
 div.about h1 {
   color: #e7b99f;
   border-radius: 5px;
-  margin: 12px;
+  margin: 24px;
   font-family: "Satisfy", cursive;
 }
 
 div.about img {
-  margin: 12px;
+  margin: 24px;
   width: 40%;
   float: left;
 }
@@ -279,6 +285,9 @@ div.footer .copyright {
 @media only screen and (max-width: 450px) {
   nav {
     margin: 0px;
+  }
+  nav .navbar-brand {
+    font-size: 1.5em;
   }
   .jumbotron {
     margin: 0px;
