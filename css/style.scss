@@ -59,6 +59,9 @@ div.about {
         text-indent: 12px;
         padding: 12px 12px 0px 12px;
         color: white;
+        span {
+            color: #e7b99f;
+        }
     }
     a {
         color: $pinkhorizon;

@@ -61,6 +61,10 @@ div.about p {
   color: white;
 }
 
+div.about p span {
+  color: #e7b99f;
+}
+
 div.about a {
   color: #e7b99f;
 }
